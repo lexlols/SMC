@@ -15,18 +15,21 @@ h2 {
 
 h4 {
 	font-size: 5em;
-	margin-bottom: 10px;
+	margin-top: 20px;
 	text-align: center;
 }
 
 label {
+    font-size: 1.2em;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 10%;
 	display: inline-block;
 	width: 31%;
 }
 
 input {
 	display: inline-block;
-	width: 165px;
 }
 
 img {
@@ -41,10 +44,21 @@ textarea {
 input.sheet-short {
 	width: 17%;
 }
+input.sheet-vshort {
+	width: 10%;
+}
+
+input.sheet-long {
+    width: 50%;
+}
+
+input.sheet-med {
+    width: 20%;
+}
 
 select.sheet-dtype {
     vertical-align: top;
-    width: 60px;
+    width: 17%;
 }
 span.sheet-dee {
 	font-size: 1.4em;
@@ -58,15 +72,50 @@ span.sheet-dee {
 /* Targetted styling that only effects elements contained within the stated class */
 .sheet-stats h3 {
 	display: inline-block;
-	text-align: left;
+	text-align: Right;
+	width: 20%;
 }
 
-.sheet-stats h3:first-child {
-	margin-left: 35%;
-	margin-right: 15%;
-}
-
-.sheet-stats input {
-	margin-right: 8%;
+.sheet-stats h3:nth-child(2) {
+	display: inline-block;
+	text-align: Right;
 	width: 17%;
+}
+.sheet-stats h3:nth-child(3) {
+	display: inline-block;
+	text-align: Right;
+	margin-left: 23%;
+	width: 12%;
+}
+.sheet-stats h3:nth-child(4) {
+	display: inline-block;
+	text-align: Right;
+	width: 11%;
+}
+.sheet-stats h3:nth-child(5) {
+	display: inline-block;
+	text-align: Right;
+	width: 11%;
+}
+.sheet-stats h4 {
+	display: inline-block;
+	text-align: Center;
+	font-size: 1.2em;
+	width: 20%;
+}
+
+
+.sheet-styles h3 {
+	display: inline-block;
+	text-align: Right;
+}
+
+.sheet-styles h3:first-child {
+	margin-left: 5%;
+	margin-right: 10%;
+}
+
+.sheet-styles h3:nth-child(2) {
+	margin-left: 21%;
+	margin-right: 6%;
 }
